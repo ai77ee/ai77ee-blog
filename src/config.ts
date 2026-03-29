@@ -4,15 +4,15 @@ export const themeConfig: ThemeConfig = {
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   site: {
     // site title
-    title: 'Retypeset',
+    title: 'ai77ee blog',
     // site subtitle
-    subtitle: 'Revive the beauty of typography',
+    subtitle: 'Writing whatever',
     // site description
-    description: 'Retypeset is a static blog theme based on the Astro framework. Inspired by Typography, Retypeset establishes a new visual standard and reimagines the layout of all pages, creating a reading experience reminiscent of paper books, reviving the beauty of typography. Details in every sight, elegance in every space.',
+    description: 'ughhhh',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
     i18nTitle: true, // true | false
     // author name
-    author: 'radishzz',
+    author: 'ai77ee',
     // site url
     url: 'https://retypeset.radishzz.cc',
     // base path
@@ -27,30 +27,18 @@ export const themeConfig: ThemeConfig = {
   // COLOR SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   color: {
     // default theme mode
-    mode: 'light', // light | dark | auto
+    mode: 'auto', // light | dark | auto
     light: {
-      // primary color
-      // used for title, hover, etc
-      // oklch color picker: https://oklch.com/
-      primary: 'oklch(25% 0.005 298)',
-      // secondary color
-      // used for post text
-      secondary: 'oklch(40% 0.005 298)',
-      // background color
-      background: 'oklch(96% 0.005 298)',
-      // highlight color
-      // used for navbar, selected text, etc
-      highlight: 'oklch(0.93 0.195089 103.2532 / 0.5)', // rgba(255,235,0,0.5)
+      primary: 'oklch(0.60 0.18 5)', // Un rosa "bubblegum" vibrante pero suave
+      secondary: 'oklch(0.40 0.05 320)', // Un gris ciruela oscuro (más divertido que el gris normal)
+      background: 'oklch(0.97 0.015 15)', // Fondo "Marshmallow" (un blanco con calidez rosa)
+      highlight: 'oklch(0.85 0.15 5 / 0.3)', // Un rosa traslúcido para resaltar texto
     },
     dark: {
-      // primary color
-      primary: 'oklch(92% 0.005 298)',
-      // secondary color
-      secondary: 'oklch(77% 0.005 298)',
-      // background color
-      background: 'oklch(22% 0.005 298)',
-      // highlight color
-      highlight: 'oklch(0.93 0.195089 103.2532 / 0.2)', // rgba(255,235,0,0.2)
+      primary: 'oklch(0.88 0.12 10)', // Rosa pastel brillante (fácil de leer)
+      secondary: 'oklch(0.75 0.04 320)', // Gris lila claro para el texto secundario
+      background: 'oklch(0.22 0.03 320)', // Fondo "Deep Grape" (un gris muy oscuro y saturado)
+      highlight: 'oklch(0.88 0.12 10 / 0.2)', // Resplandor rosa sutil
     },
   },
   // COLOR SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
@@ -58,12 +46,12 @@ export const themeConfig: ThemeConfig = {
   // GLOBAL SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   global: {
     // default language
-    locale: 'zh', // de | en | es | fr | ja | ko | pl | pt | ru | zh | zh-tw
+    locale: 'en', // de | en | es | fr | ja | ko | pl | pt | ru | zh | zh-tw
     // more languages
     // not fill in the locale code above again, can be an empty array []
-    moreLocales: ['en', 'es', 'ja', 'ru', 'zh-tw'], // ['de', 'en', 'es', 'fr', 'ja', 'ko', 'pl', 'pt', 'ru', 'zh', 'zh-tw']
+    moreLocales: ['es'], // ['de', 'en', 'es', 'fr', 'ja', 'ko', 'pl', 'pt', 'ru', 'zh', 'zh-tw']
     // post font style
-    fontStyle: 'sans', // sans | serif
+    fontStyle: 'serif', // sans | serif
     // post date format
     dateFormat: 'YYYY-MM-DD', // YYYY-MM-DD | MM-DD-YYYY | DD-MM-YYYY | MMM D YYYY | D MMM YYYY
     // enable table of contents
@@ -102,15 +90,15 @@ export const themeConfig: ThemeConfig = {
     // https://waline.js.org/en/
     waline: {
       // server url
-      serverURL: 'https://retypeset-comment.radishzz.cc',
+      serverURL: 'https://blog-comments.ai77ee.xyz/',
       // emoji url
       emoji: [
-        'https://unpkg.com/@waline/emojis@1.2.0/tw-emoji',
+        'https://unpkg.com/@waline/emojis@1.4.0/bmoji',
         // 'https://unpkg.com/@waline/emojis@1.2.0/bmoji',
         // more emojis: https://waline.js.org/en/guide/features/emoji.html
       ],
       // gif search
-      search: false, // true | false
+      search: true, // true | false
       // image uploader
       imageUploader: false, // true | false
     },
@@ -120,15 +108,15 @@ export const themeConfig: ThemeConfig = {
   // SEO SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   seo: {
     // @twitter ID
-    twitterID: '@radishzz_',
+    twitterID: '@ai77ee',
     // site verification
     verification: {
       // google search console
       // https://search.google.com/search-console
-      google: 'AUCrz5F1e5qbnmKKDXl2Sf8u6y0kOpEO1wLs6HMMmlM',
+      google: '',
       // bing webmaster tools
       // https://www.bing.com/webmasters
-      bing: '64708CD514011A7965C84DDE1D169F87',
+      bing: '',
       // yandex webmaster
       // https://webmaster.yandex.com
       yandex: '',
@@ -141,7 +129,7 @@ export const themeConfig: ThemeConfig = {
     googleAnalyticsID: '',
     // umami analytics
     // https://cloud.umami.is
-    umamiAnalyticsID: 'dab0e4b9-9cbf-43c3-af60-b09d3b545c38',
+    umamiAnalyticsID: '',
     // follow verification
     // https://follow.is/
     follow: {
@@ -167,11 +155,15 @@ export const themeConfig: ThemeConfig = {
       },
       {
         name: 'GitHub',
-        url: 'https://github.com/radishzzz/astro-theme-retypeset',
+        url: 'https://github.com/ai77ee',
       },
       {
-        name: 'Email',
-        url: 'email@radishzz.cc',
+        name: 'Twitter',
+        url: 'https://twitter.com/ai77ee',
+      },
+      {
+        name: 'Last.fm',
+        url: 'https://www.last.fm/user/aiimeee',
       },
       // {
       //   name: 'X',
@@ -179,7 +171,7 @@ export const themeConfig: ThemeConfig = {
       // },
     ],
     // year of website start
-    startYear: 2025,
+    startYear: 2026,
   },
   // FOOTER SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 
@@ -187,7 +179,7 @@ export const themeConfig: ThemeConfig = {
   preload: {
     // image hosting url
     // optimize remote images and generate low-quality placeholders
-    imageHostURL: 'image.radishzz.cc',
+    imageHostURL: '',
     // custom google analytics js
     // for users who proxy tracking scripts to a custom domain
     // see https://gist.github.com/xiaopc/0602f06ca465d76bd9efd3dda9393738
@@ -195,7 +187,7 @@ export const themeConfig: ThemeConfig = {
     // custom umami analytics js
     // for users who self-deploy umami or proxy tracking scripts to a custom domain
     // see https://umami.is/docs/bypass-ad-blockers
-    customUmamiAnalyticsJS: 'https://views.radishzz.cc/script.js',
+    customUmamiAnalyticsJS: '',
   },
   // PRELOAD SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 }

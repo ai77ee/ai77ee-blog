@@ -1,5 +1,13 @@
 ---
 lang: en
 ---
+Hi, this is Aimee.
 
-Retypeset is a static blog theme based on the [Astro](https://astro.build/) framework. Inspired by [Typography](https://astro-theme-typography.vercel.app/), Retypeset establishes a new visual standard and reimagines the layout of all pages, creating a reading experience reminiscent of paper books, reviving the beauty of typography. Details in every sight, elegance in every space.
+A person that generally exists online, listens to music a lot and loves cats.
+I like watching the trees near my place to observe and think about life.
+
+---
+
+::spotify{url="https://open.spotify.com/track/2QrfU81khdENzp0NcE47q1?si=db9a6d0e0c0c44ae"}
+
+![_Image description](https://media1.tenor.com/m/DRLsZb6y2TEAAAAd/if-you-laugh-you-go-to-hell-triples-jiwoo-if-you-laugh-you-go-to-hell.gif)
